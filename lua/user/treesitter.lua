@@ -22,10 +22,13 @@ configs.setup({
 		enable = true,
 	},
 	indent = { enable = true, disable = { "python", "css" } },
-
 	context_commentstring = {
 		enable = true,
 		enable_autocmd = false,
 	},
-
+  rainbow = {
+    enable = true,
+    extended_mode = false,
+    max_file_lines = nil,
+  },
 })
