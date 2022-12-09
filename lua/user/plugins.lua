@@ -64,15 +64,13 @@ return packer.startup(function(use)
   use { "tpope/vim-repeat", commit = "24afe922e6a05891756ecf331f39a1f6743d3d5a" }
   use { "mg979/vim-visual-multi", commit = "724bd53adfbaf32e129b001658b45d4c5c29ca1a" }
   use { "p00f/nvim-ts-rainbow", commit = "064fd6c0a15fae7f876c2c6dd4524ca3fad96750" }
-  use { "windwp/nvim-ts-autotag", commit = "fdefe46c6807441460f11f11a167a2baf8e4534b" }
-
+  use { "fatih/vim-go", commit = "8d7677947e0be1eecfa1bcf2c1148804963ec4f6" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
   use { "lunarvim/darkplus.nvim", commit = "13ef9daad28d3cf6c5e793acfc16ddbf456e1c83" }
   use { "bluz71/vim-nightfly-guicolors", commit = "67192cf4a4e51f3286a9025c37e84cff128ed115" }
   use { "kristijanhusak/vim-hybrid-material", commit = "ad031275c63a05b6acb6014a2401d8719a290bd4" }
-  use { "ajmwagar/vim-deus", commit = "1be965e7bc1c01e7db5e46dcd0e50d32d4eef434" }
 
   -- cmp plugins
   use { "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" } -- The completion plugin
