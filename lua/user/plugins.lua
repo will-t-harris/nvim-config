@@ -65,6 +65,8 @@ return packer.startup(function(use)
   use { "mg979/vim-visual-multi", commit = "724bd53adfbaf32e129b001658b45d4c5c29ca1a" }
   use { "p00f/nvim-ts-rainbow", commit = "064fd6c0a15fae7f876c2c6dd4524ca3fad96750" }
   use { "fatih/vim-go", commit = "8d7677947e0be1eecfa1bcf2c1148804963ec4f6" }
+  use { "tpope/vim-dadbod", commit = "34151ccce9f5ff16229b8e482a97e46997914cb3" }
+  use { "kristijanhusak/vim-dadbod-ui", commit = "6a2b841d2f0b82386c637ce4e9954ae12c7eaee8" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
