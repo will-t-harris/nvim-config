@@ -27,6 +27,8 @@ keymap("n", "<C-u>", "<C-u>zz", opts)
 -- Center cursor while paging through search
 keymap("n", "n", "nzzzv", opts)
 keymap("n", "N", "Nzzzv", opts)
+-- Paste without overwriting register
+keymap("n", "<leader>p", "\"_dP", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
